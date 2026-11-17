@@ -1,0 +1,310 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin Perera",
+      "email": "admin@demo.lk",
+      "role": "admin",
+      "phone": "0112345678",
+      "skills": "",
+      "availability": true
+    },
+    {
+      "id": 2,
+      "name": "Nimal Silva",
+      "email": "volunteer@demo.lk",
+      "role": "volunteer",
+      "phone": "0771234567",
+      "skills": "first aid, driving",
+      "availability": true
+    },
+    {
+      "id": 3,
+      "name": "Kamala Fernando",
+      "email": "citizen@demo.lk",
+      "role": "citizen",
+      "phone": "0719876543",
+      "skills": "",
+      "availability": true
+    },
+    {
+      "id": 4,
+      "name": "Saman Kumara",
+      "email": "saman@demo.lk",
+      "role": "volunteer",
+      "phone": "0765550101",
+      "skills": "logistics, boats",
+      "availability": true
+    },
+    {
+      "id": 5,
+      "name": "Dilini Jayawardena",
+      "email": "dilini@demo.lk",
+      "role": "volunteer",
+      "phone": "0701112233",
+      "skills": "nursing",
+      "availability": false
+    }
+  ],
+  "incidents": [
+    {
+      "id": 1,
+      "title": "River overflowing into homes",
+      "type": "flood",
+      "severity": "critical",
+      "status": "in_progress",
+      "description": "Kelani river has crossed the bank. About 40 families need evacuation.",
+      "address": "Kaduwela, Colombo",
+      "lat": 6.9366,
+      "lng": 79.9886,
+      "reporter_name": "Kamala Fernando",
+      "created_at": "2026-11-10T18:40:08.470Z"
+    },
+    {
+      "id": 2,
+      "title": "Landslide blocking main road",
+      "type": "landslide",
+      "severity": "high",
+      "status": "verified",
+      "description": "Road to Hatton blocked, vehicles stranded.",
+      "address": "Hatton–Nuwara Eliya road",
+      "lat": 6.8905,
+      "lng": 80.5958,
+      "reporter_name": "Nimal Silva",
+      "created_at": "2026-11-10T17:15:08.470Z"
+    },
+    {
+      "id": 3,
+      "title": "Houses damaged by strong winds",
+      "type": "cyclone",
+      "severity": "medium",
+      "status": "reported",
+      "description": "Roofs blown off in several houses.",
+      "address": "Hambantota town",
+      "lat": 6.1241,
+      "lng": 81.1185,
+      "reporter_name": "Kamala Fernando",
+      "created_at": "2026-11-10T14:15:08.470Z"
+    },
+    {
+      "id": 4,
+      "title": "Elderly resident needs medical help",
+      "type": "medical",
+      "severity": "high",
+      "status": "reported",
+      "description": "Cut off by flood water, needs insulin.",
+      "address": "Ratnapura town",
+      "lat": 6.6828,
+      "lng": 80.3992,
+      "reporter_name": "Saman Kumara",
+      "created_at": "2026-11-10T19:00:08.470Z"
+    },
+    {
+      "id": 5,
+      "title": "Forest fire near village",
+      "type": "fire",
+      "severity": "low",
+      "status": "resolved",
+      "description": "Fire brought under control by locals.",
+      "address": "Ella, Badulla",
+      "lat": 6.8667,
+      "lng": 81.0466,
+      "reporter_name": "Admin Perera",
+      "created_at": "2026-11-09T18:15:08.470Z"
+    },
+    {
+      "id": 6,
+      "title": "Low-lying area flooding",
+      "type": "flood",
+      "severity": "medium",
+      "status": "verified",
+      "description": "Water level rising in paddy fields and roads.",
+      "address": "Galle, Southern Province",
+      "lat": 6.0535,
+      "lng": 80.221,
+      "reporter_name": "Kamala Fernando",
+      "created_at": "2026-11-09T09:55:08.470Z"
+    },
+    {
+      "id": 7,
+      "title": "Drought: wells running dry",
+      "type": "drought",
+      "severity": "medium",
+      "status": "in_progress",
+      "description": "Water bowser needed for 3 villages.",
+      "address": "Anuradhapura",
+      "lat": 8.3114,
+      "lng": 80.4037,
+      "reporter_name": "Nimal Silva",
+      "created_at": "2026-11-08T00:35:08.470Z"
+    },
+    {
+      "id": 8,
+      "title": "Minor tremor, cracked walls",
+      "type": "earthquake",
+      "severity": "low",
+      "status": "resolved",
+      "description": "Checked by engineers, no danger.",
+      "address": "Jaffna",
+      "lat": 9.6615,
+      "lng": 80.0255,
+      "reporter_name": "Admin Perera",
+      "created_at": "2026-11-07T04:35:08.470Z"
+    }
+  ],
+  "shelters": [
+    {
+      "id": 1,
+      "name": "Kaduwela Community Hall",
+      "address": "Kaduwela, Colombo",
+      "lat": 6.9335,
+      "lng": 79.9842,
+      "capacity": 150,
+      "occupancy": 128,
+      "status": "open",
+      "contact": "0112 345 111",
+      "supplies": "food, water, blankets",
+      "updated_at": "2026-11-10T19:05:08.470Z"
+    },
+    {
+      "id": 2,
+      "name": "Ratnapura Central College",
+      "address": "Ratnapura town",
+      "lat": 6.6805,
+      "lng": 80.4037,
+      "capacity": 200,
+      "occupancy": 200,
+      "status": "full",
+      "contact": "0452 222 333",
+      "supplies": "food, medicine",
+      "updated_at": "2026-11-10T18:30:08.470Z"
+    },
+    {
+      "id": 3,
+      "name": "Galle Temple Shelter",
+      "address": "Galle Fort area",
+      "lat": 6.0269,
+      "lng": 80.217,
+      "capacity": 80,
+      "occupancy": 22,
+      "status": "open",
+      "contact": "0912 234 567",
+      "supplies": "water, mats",
+      "updated_at": "2026-11-10T17:45:08.470Z"
+    },
+    {
+      "id": 4,
+      "name": "Hatton Town Hall",
+      "address": "Hatton",
+      "lat": 6.8916,
+      "lng": 80.5951,
+      "capacity": 100,
+      "occupancy": 35,
+      "status": "open",
+      "contact": "0512 222 444",
+      "supplies": "blankets, tea, food",
+      "updated_at": "2026-11-10T15:55:08.470Z"
+    },
+    {
+      "id": 5,
+      "name": "Jaffna Public Library Hall",
+      "address": "Jaffna",
+      "lat": 9.6615,
+      "lng": 80.0255,
+      "capacity": 60,
+      "occupancy": 0,
+      "status": "closed",
+      "contact": "",
+      "supplies": "",
+      "updated_at": "2026-11-08T17:15:08.470Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Deliver drinking water to Kaduwela hall",
+      "description": "Take 200 bottles from the Colombo depot.",
+      "required_skill": "driving",
+      "status": "open",
+      "incident_id": 1,
+      "incident_title": "River overflowing into homes",
+      "assigned_to": null,
+      "assignee_name": null,
+      "created_at": "2026-11-10T18:45:08.470Z"
+    },
+    {
+      "id": 2,
+      "title": "First-aid check for evacuated families",
+      "description": "Check for injuries and chronic illness.",
+      "required_skill": "first aid",
+      "status": "assigned",
+      "incident_id": 1,
+      "incident_title": "River overflowing into homes",
+      "assigned_to": 2,
+      "assignee_name": "Nimal Silva",
+      "created_at": "2026-11-10T18:47:08.470Z"
+    },
+    {
+      "id": 3,
+      "title": "Clear debris from access road",
+      "description": "Help the local council clear small debris.",
+      "required_skill": "",
+      "status": "in_progress",
+      "incident_id": 2,
+      "incident_title": "Landslide blocking main road",
+      "assigned_to": 4,
+      "assignee_name": "Saman Kumara",
+      "created_at": "2026-11-10T17:35:08.470Z"
+    },
+    {
+      "id": 4,
+      "title": "Deliver insulin to resident",
+      "description": "Pharmacy has the medicine ready. Boat access only.",
+      "required_skill": "boats",
+      "status": "open",
+      "incident_id": 4,
+      "incident_title": "Elderly resident needs medical help",
+      "assigned_to": null,
+      "assignee_name": null,
+      "created_at": "2026-11-10T19:03:08.470Z"
+    },
+    {
+      "id": 5,
+      "title": "Pack food parcels",
+      "description": "",
+      "required_skill": "logistics",
+      "status": "completed",
+      "incident_id": 7,
+      "incident_title": "Drought: wells running dry",
+      "assigned_to": 2,
+      "assignee_name": "Nimal Silva",
+      "created_at": "2026-11-08T17:15:08.470Z"
+    },
+    {
+      "id": 6,
+      "title": "Register new shelter arrivals",
+      "description": "Keep a headcount at the door.",
+      "required_skill": "",
+      "status": "completed",
+      "incident_id": 6,
+      "incident_title": "Low-lying area flooding",
+      "assigned_to": 2,
+      "assignee_name": "Nimal Silva",
+      "created_at": "2026-11-09T01:35:08.470Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "message": "Heavy rain expected tonight. Avoid low-lying areas near the Kelani river.",
+      "level": "warning",
+      "created_at": "2026-11-10T18:35:08.470Z"
+    },
+    {
+      "id": 2,
+      "message": "Hatton–Nuwara Eliya road closed due to landslide. Use the alternate route.",
+      "level": "info",
+      "created_at": "2026-11-10T17:25:08.470Z"
+    }
+  ]
+}
